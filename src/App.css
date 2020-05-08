@@ -6,3 +6,6 @@ h1 {
   font-family: 'Jost', sans-serif;
 }
 
+.page-container {
+  height: 100%;
+}
