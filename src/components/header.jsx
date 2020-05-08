@@ -7,13 +7,13 @@ const Header = () => (
   <div className="header-bar">
     <Link className="logo" to="/"></Link>
     <div className="header-links">
-      <Link className="link" to="/">
+      <Link className="link" to="/about">
         About
       </Link>
-      <Link className="link" to="/">
+      <Link className="link" to="/projects">
         Projects
       </Link>
-      <Link className="link" to="/">
+      <Link className="link" to="/contact">
         Contact
       </Link>
     </div>
