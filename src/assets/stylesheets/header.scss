@@ -4,16 +4,22 @@
   background-color: black;
   position: sticky;
   top: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-
+ text-decoration: none;
+ color: white;
+ font-size: 18px;
+ padding: 24px;
 }
 
 .header-links {
   display: flex;
   justify-content: flex-end;
-  padding: 16px;
+  //background-color: red;
+}
 
   .link {
     text-decoration: none;
@@ -21,14 +27,79 @@
     margin-right: 16px;
     color: white;
     font-size: 24px;
+    
   }
 
   .divisor {
     color: white;
     font-size: 24px;
   }
+
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  
+  li {
+    margin: 0 15px;
+    justify-content: space-between;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 600px) {
+  .header-links {
+    display: block;
+  }
+
+  .divisor {
+    overflow: hidden;
+    max-height: 0;
+  }
+
+  .fa-bars {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
   
+  ul.collapsed {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    overflow: hidden;
+    max-height: 0;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+
+    &.is-expanded {
+      overflow: hidden;
+      max-height: 500px; /* approximate max height */
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 24px;
+      margin-top: 48px;
+      
+      -moz-transition-duration: 0.4s;
+      -webkit-transition-duration: 0.4s;
+      -o-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      -moz-transition-timing-function: ease-in;
+      -webkit-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+    }
+  }
 }
