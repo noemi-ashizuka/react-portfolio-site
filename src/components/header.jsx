@@ -43,13 +43,10 @@ class Header extends Component {
             </Link>
           </ul>
         </div>
-        
       </nav>
-      
     </div>
     )
   }
-  
 }
 
 export default Header;
