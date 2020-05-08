@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Main from './main';
-
 const Header = () => (
   <div className="header-bar">
     <Link className="logo" to="/"></Link>
@@ -10,9 +8,11 @@ const Header = () => (
       <Link className="link" to="/about">
         About
       </Link>
+      <span className="divisor">/</span>
       <Link className="link" to="/projects">
         Projects
       </Link>
+      <span className="divisor">/</span>
       <Link className="link" to="/contact">
         Contact
       </Link>
