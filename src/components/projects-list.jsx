@@ -1,18 +1,29 @@
 import React, { Component } from 'react';
+import ProjectCard from './project-card';
+import PROJECTS_DATA from '../data/projects-data';
 
 class ProjectsList extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      collections: PROJECTS_DATA
+    }
+  }
+
   render() {
+    const {collections} = this.state;
     return(
-      <div>
-        <h1>All my Projects</h1>
+      <div className="page-container">
+        <h1 className="page-title">All my Projects</h1>
         <div className="project-list">
-          <div className="project-card">
-            
-          </div>
+          {
+            collections.map(({id, ...otherCollectionProps }) => (
+              <ProjectCard key={id} {...otherCollectionProps} />
+            ))
+          }
         </div>
-      
-      </div>
-    )
+      </div>);
   }
 }
 
