@@ -1,15 +1,27 @@
 import React, { Component } from 'react';
+import { Route, Link } from 'react-router-dom';
+import ProjectDetails from './project-details';
 import '../assets/stylesheets/project-card.scss';
 
-const ProjectCard =({id, title, description, specifications, imagesUrls, technologies}) => (
-  <div className='project-card'>
-    <img src={ imagesUrls } className="project-main-image"></img>
-    <div className="project-text">
-      <h1 className='project-title'>{ title }</h1>
-      <h2 className="project-specs">{ specifications }</h2>
-      <p className="project-tech">{ technologies.map((tech) =>( `${tech.name} ` ))}</p>
-    </div>
-  </div>
-)
+class ProjectCard extends Component {
+  constructor({ props }) {
+    super(props);
+
+  }
+
+  render() {
+    
+    return(
+      <div className='project-card'>
+        <img src={ this.props.imagesUrls } className="project-main-image"></img>
+        <div className="project-text">
+          <Link to={`/projects/${this.props.id}`}><h1 className='project-title'>{ this.props.title }</h1></Link>
+          <h2 className="project-specs">{ this.props.specifications }</h2>
+          <p className="project-tech">{ this.props.technologies.map((tech) =>( `${tech.name} ` ))}</p>
+        </div>
+      </div>
+    )
+  }
+  }
 
 export default ProjectCard;

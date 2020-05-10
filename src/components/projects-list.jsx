@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import {Route, Link } from 'react-router-dom';
 import ProjectCard from './project-card';
 import PROJECTS_DATA from '../data/projects-data';
+import ProjectDetails from './project-details';
 
 class ProjectsList extends Component {
   constructor(props) {
@@ -13,16 +15,21 @@ class ProjectsList extends Component {
 
   render() {
     const {collections} = this.state;
+    let match = this.props.match
+    console.log(match);
     return(
       <div className="page-container">
         <h1 className="page-title">All my Projects</h1>
         <div className="project-list">
           {
             collections.map(({id, ...otherCollectionProps }) => (
-              <ProjectCard key={id} {...otherCollectionProps} />
-            ))
-          }
-        </div>
+             
+                <ProjectCard {...otherCollectionProps} key={id} id={id} />
+             
+              
+            ))}
+            
+          </div>
       </div>);
   }
 }
