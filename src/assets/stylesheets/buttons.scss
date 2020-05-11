@@ -1,0 +1,25 @@
+.button-main {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.button-line {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
