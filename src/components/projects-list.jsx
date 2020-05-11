@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import {Route, Link } from 'react-router-dom';
 import ProjectCard from './project-card';
 import PROJECTS_DATA from '../data/projects-data';
-import ProjectDetails from './project-details';
+
 
 class ProjectsList extends Component {
   constructor(props) {
@@ -23,13 +22,9 @@ class ProjectsList extends Component {
         <div className="project-list">
           {
             collections.map(({id, ...otherCollectionProps }) => (
-             
-                <ProjectCard {...otherCollectionProps} key={id} id={id} />
-             
-              
-            ))}
-            
-          </div>
+              <ProjectCard {...otherCollectionProps} key={id} id={id} />
+          ))}
+        </div>
       </div>);
   }
 }

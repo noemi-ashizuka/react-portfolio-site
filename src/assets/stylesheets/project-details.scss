@@ -17,12 +17,12 @@
   padding-top: 24px;
   padding-bottom: 24px;
   
-  ul {
+  .buttons-list {
     padding: 0;
     list-style-type: none;
     display: flex;
 
-    li {
+    .list-item {
       margin-left: 8px;
     }
   }

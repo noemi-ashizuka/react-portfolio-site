@@ -7,10 +7,18 @@ const PROJECTS_DATA = [
     specifications: "Group project | Role: team manager | Time: 2 weeks",
     description: "Clever Closet is an app to manage your wardrobe and help reduce the impact of fast fashion on the environment. How does it do that? Simple, with Clever Clothes you can share clothes with friends, create looks for yourself and your friends to make the most of the clothes you already own. In this project I was responsible for my team workflow, and I coded for the backend as well as the frontend.",
     links: [
-      {
-      github: "github",
-      siteUrl: "website",
-      videoUrl: "video"},
+        {
+          id: 1,
+          url: "github"
+        },
+        {
+          id: 2,
+          url: "site"
+        },
+        {
+          id: 3,
+          url: "video"
+        }
       ],
       technologies: [
         {name: "Ruby", iconUrl: ""},
@@ -33,7 +41,7 @@ const PROJECTS_DATA = [
     links: [
       {
       github: "github",
-      siteUrl: "website",
+      siteUrl: "site",
       videoUrl: "video"},
       ],
     technologies: [

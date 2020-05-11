@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
-import ProjectDetails from './project-details';
+import { Link } from 'react-router-dom';
+
 import '../assets/stylesheets/project-card.scss';
 
 class ProjectCard extends Component {
@@ -13,7 +13,7 @@ class ProjectCard extends Component {
     
     return(
       <div className='project-card'>
-        <img src={ this.props.imagesUrls } className="project-main-image"></img>
+        <img src={ this.props.imagesUrls } alt="images of websites" className="project-main-image"></img>
         <div className="project-text">
           <Link to={`/projects/${this.props.id}`}><h1 className='project-title'>{ this.props.title }</h1></Link>
           <h2 className="project-specs">{ this.props.specifications }</h2>
