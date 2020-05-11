@@ -40,10 +40,18 @@ const PROJECTS_DATA = [
     description: "Obi is a marketplace where people can rent or lend kimonos of many different types.For this project I was responsible for database design, assigning tasks to the team and coding for the backend as well as frontend.",
     links: [
       {
-      github: "github",
-      siteUrl: "site",
-      videoUrl: "video"},
-      ],
+        id: 1,
+        url: "github"
+      },
+      {
+        id: 2,
+        url: "site"
+      },
+      {
+        id: 3,
+        url: "video"
+      }
+    ],
     technologies: [
       {name: "Ruby", iconUrl: ""},
       {name: "Rails", iconUrl: ""},
@@ -64,10 +72,18 @@ const PROJECTS_DATA = [
     specifications: "Solo project | Time: 2 days",
     links: [
       {
-      github: "github",
-      siteUrl: "website",
-      videoUrl: "video"},
-      ],
+        id: 1,
+        url: "github"
+      },
+      {
+        id: 2,
+        url: "site"
+      },
+      {
+        id: 3,
+        url: "video"
+      }
+    ],
     technologies: [
       {name: "Ruby", iconUrl: ""},
       {name: "Rails", iconUrl: ""},
@@ -88,10 +104,18 @@ const PROJECTS_DATA = [
     specifications: "Solo project | Time: 2 days",
     links: [
       {
-      github: "github",
-      siteUrl: "website",
-      videoUrl: "video"},
-      ],
+        id: 1,
+        url: "github"
+      },
+      {
+        id: 2,
+        url: "site"
+      },
+      {
+        id: 3,
+        url: "video"
+      }
+    ],
     technologies: [
       {name: "Ruby", iconUrl: ""},
       {name: "Rails", iconUrl: ""},
