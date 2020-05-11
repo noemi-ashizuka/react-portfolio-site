@@ -9,7 +9,7 @@ const PROJECTS_DATA = [
     links: [
       {
       github: "github",
-      siteUrl: "site",
+      siteUrl: "website",
       videoUrl: "video"},
       ],
       technologies: [
@@ -33,7 +33,7 @@ const PROJECTS_DATA = [
     links: [
       {
       github: "github",
-      siteUrl: "site",
+      siteUrl: "website",
       videoUrl: "video"},
       ],
     technologies: [
@@ -57,7 +57,7 @@ const PROJECTS_DATA = [
     links: [
       {
       github: "github",
-      siteUrl: "site",
+      siteUrl: "website",
       videoUrl: "video"},
       ],
     technologies: [
@@ -81,7 +81,7 @@ const PROJECTS_DATA = [
     links: [
       {
       github: "github",
-      siteUrl: "site",
+      siteUrl: "website",
       videoUrl: "video"},
       ],
     technologies: [

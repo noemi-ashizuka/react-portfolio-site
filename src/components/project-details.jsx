@@ -23,7 +23,13 @@ class ProjectDetails extends Component {
           <p>{project.technologies.map((tech) =>( `${tech.name} ` ))}</p>
         </div>
         <div className="project-links">
-          {project.links.map((link) => (<a href="/" className="button-main">{link.github}</a>))}
+          {project.links.map((link) => (
+            <ul>
+              <li><a href="/" className="button-main">{link.github}</a></li>
+              <li><a href="/" className="button-main">{link.siteUrl}</a></li>
+              <li><a href="/" className="button-main">{link.videoUrl}</a></li>
+            </ul>
+          ))}
         </div>
       </div>
     )
