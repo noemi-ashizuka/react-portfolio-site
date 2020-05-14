@@ -13,7 +13,7 @@ class ProjectCard extends Component {
     
     return(
       <div className='project-card'>
-        <img src={ this.props.imagesUrls } alt="images of websites" className="project-main-image"></img>
+        <img src={ this.props.titleImg } alt="images of websites" className="project-main-image"></img>
         <div className="project-text">
           <Link to={`/projects/${this.props.id}`}><h1 className='project-title'>{ this.props.title }</h1></Link>
           <h2 className="project-specs">{ this.props.specifications }</h2>

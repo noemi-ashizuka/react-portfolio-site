@@ -9,13 +9,21 @@ import PROJECTS_DATA from '../data/projects-data';
 class ProjectDetails extends Component {
 
   render() {
-    let project = PROJECTS_DATA.find(element => element.id === parseInt(this.props.match.params.projectId))
-    project.links.flat().map((link) => console.log(link.id))
+    let project = PROJECTS_DATA.find(element => element.id === parseInt(this.props.match.params.projectId));
+
     return(
       <div className="page-container">
         <h1 className="project-title">{project.title}</h1>
         <div className="project-images">
-          <img src={project.imagesUrls} alt="images of the website project"></img>
+          {project.imagesUrls.map((url, index) =>(
+            <img 
+              src={url} 
+              alt="image of the project" 
+              key={index} 
+              className={project.id === 1? "project-slide-slim" : "project-slide"}>
+              </img>
+            ))
+          }
         </div>
         <div className="project-description">
           <h2>{project.specifications}</h2>

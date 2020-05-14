@@ -4,7 +4,21 @@
 }
 
 .project-images {
+ display: flex;
+ flex-wrap: wrap;
  width: 100%;
+ 
+ .project-slide {
+   padding: 24px;
+   width: 400px;
+   height: 300px;
+ }
+
+ .project-slide-slim {
+   padding: 24px;
+   width: 350px;
+   height: 450px;
+ }
 }
 
 .project-description {
