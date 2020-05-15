@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Carousel from 'nuka-carousel';
 
 import CustomButton from './custom-button';
 
@@ -10,20 +11,22 @@ class ProjectDetails extends Component {
 
   render() {
     let project = PROJECTS_DATA.find(element => element.id === parseInt(this.props.match.params.projectId));
-
+    
     return(
       <div className="page-container">
         <h1 className="project-title">{project.title}</h1>
         <div className="project-images">
+          <Carousel>
           {project.imagesUrls.map((url, index) =>(
             <img 
               src={url} 
-              alt="image of the project" 
+              alt="website project" 
               key={index} 
               className={project.id === 1? "project-slide-slim" : "project-slide"}>
               </img>
             ))
           }
+          </Carousel>
         </div>
         <div className="project-description">
           <h2>{project.specifications}</h2>
