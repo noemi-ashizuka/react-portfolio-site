@@ -42,5 +42,9 @@
       border: 1px solid #2d2d2d;
       text-transform: none;
     }
+
+    button:focus {
+      outline: 2px solid #2d2d2d;
+    }
   }
 }
