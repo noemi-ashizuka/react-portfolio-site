@@ -19,6 +19,7 @@ class ProjectCard extends Component {
         <div className="project-text">
           <Link to={`/projects/${this.props.id}`}><h1 className='project-title'>{ this.props.title }</h1></Link>
           <h2 className="project-specs">{ this.props.technologies.map((tech) =>( `${tech.name} ` ))}</h2>
+          <Link to={`/projects/${this.props.id}`}><CustomButton className="card-button">See more</CustomButton></Link>
         </div>
       </div>
     )
