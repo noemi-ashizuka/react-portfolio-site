@@ -28,7 +28,10 @@
     margin-right: 16px;
     color: white;
     font-size: 24px;
-    
+  }
+
+  .link:focus {
+    border-bottom: 1px solid white;
   }
 
   .divisor {
