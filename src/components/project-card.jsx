@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import CustomButton from './custom-button';
+
 import '../assets/stylesheets/project-card.scss';
 
 class ProjectCard extends Component {
@@ -16,8 +18,7 @@ class ProjectCard extends Component {
         <img src={ this.props.titleImg } alt="images of websites" className="project-main-image"></img>
         <div className="project-text">
           <Link to={`/projects/${this.props.id}`}><h1 className='project-title'>{ this.props.title }</h1></Link>
-          <h2 className="project-specs">{ this.props.specifications }</h2>
-          <p className="project-tech">{ this.props.technologies.map((tech) =>( `${tech.name} ` ))}</p>
+          <h2 className="project-specs">{ this.props.technologies.map((tech) =>( `${tech.name} ` ))}</h2>
         </div>
       </div>
     )

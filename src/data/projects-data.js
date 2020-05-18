@@ -27,8 +27,7 @@ const PROJECTS_DATA = [
         {name: "SCSS", iconUrl: ""},
         {name: "JavaScript", iconUrl: ""},
         {name: "PostgreSQL", iconUrl: ""},
-        {name: "Figma", iconUrl: ""},
-        {name: "Trello", iconUrl: ""}
+        {name: "Figma", iconUrl: ""}
       ]
   },
   {
@@ -148,9 +147,7 @@ const PROJECTS_DATA = [
       {name: "HTML", iconUrl: ""},
       {name: "SCSS", iconUrl: ""},
       {name: "JavaScript", iconUrl: ""},
-      {name: "PostgreSQL", iconUrl: ""},
-      {name: "Figma", iconUrl: ""},
-      {name: "Trello", iconUrl: ""}
+      {name: "PostgreSQL", iconUrl: ""}
     ]
   }
 ]
