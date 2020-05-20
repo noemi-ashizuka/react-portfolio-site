@@ -14,35 +14,41 @@ class ProjectDetails extends Component {
     
     return(
       <div className="page-container">
-        <h1 className="project-title">{project.title}</h1>
-        <div className="project-images">
-          <Carousel>
-          {project.imagesUrls.map((url, index) =>(
-            <img 
-              src={url} 
-              alt="website project" 
-              key={index} 
-              className={project.id === 1? "project-slide-slim" : "project-slide"}>
-              </img>
-            ))
-          }
-          </Carousel>
-        </div>
-        <div className="project-description">
-          <h2>{project.specifications}</h2>
-          <p>{project.description}</p>
-          <ul>
-          {project.technologies.map((tech, index) =>( <li key={index}>{tech.name} </li>))}
-          </ul>
-        </div>
-        <div className="project-links">
-          <div className="buttons-list">
-          {project.links.map((link, index) => (
-            <a href="/" key={index}><CustomButton>{link.url}</CustomButton></a>
-           ))} 
+        <div className="content-container">
+          <div className="content-image">
+            <div className="project-images">
+              <Carousel>
+              {project.imagesUrls.map((url, index) =>(
+                <img 
+                  src={url} 
+                  alt="website project" 
+                  key={index} 
+                  className={project.id === 1? "project-slide-slim" : "project-slide"}>
+                  </img>
+                ))
+              }
+              </Carousel>
+            </div>
+          </div>
+          <div className="content-text">
+            <h1 className="project-title">{project.title}</h1>
+            <div className="project-description">
+              <h2>{project.specifications}</h2>
+              <p>{project.description}</p>
+              <ul>
+              {project.technologies.map((tech, index) =>( <li key={index}>{tech.name} </li>))}
+              </ul>
+            </div>
+            <div className="project-links">
+              <div className="buttons-list">
+              {project.links.map((link, index) => (
+                <a href="/" key={index}><CustomButton>{link.url}</CustomButton></a>
+              ))} 
+            </div>
           </div>
         </div>
       </div>
+    </div>
     )
   }
 }
