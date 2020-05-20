@@ -14,8 +14,6 @@ class ProjectsList extends Component {
 
   render() {
     const {collections} = this.state;
-    let match = this.props.match
-    console.log(match);
     return(
       <div className="page-container">
         <h1 className="page-title">All my Projects</h1>

@@ -38,7 +38,7 @@ class ProjectDetails extends Component {
         <div className="project-links">
           <div className="buttons-list">
           {project.links.map((link, index) => (
-            <a href="/"><CustomButton key={index}>{link.url}</CustomButton></a>
+            <a href="/" key={index}><CustomButton>{link.url}</CustomButton></a>
            ))} 
           </div>
         </div>
