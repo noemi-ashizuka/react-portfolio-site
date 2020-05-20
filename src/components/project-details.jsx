@@ -31,12 +31,14 @@ class ProjectDetails extends Component {
         <div className="project-description">
           <h2>{project.specifications}</h2>
           <p>{project.description}</p>
-          <p>{project.technologies.map((tech) =>( `${tech.name} ` ))}</p>
+          <ul>
+          {project.technologies.map((tech, index) =>( <li key={index}>{tech.name} </li>))}
+          </ul>
         </div>
         <div className="project-links">
           <div className="buttons-list">
-          {project.links.map((link) => (
-            <a href="/"><CustomButton key={link.id}>{link.url}</CustomButton></a>
+          {project.links.map((link, index) => (
+            <a href="/"><CustomButton key={index}>{link.url}</CustomButton></a>
            ))} 
           </div>
         </div>
