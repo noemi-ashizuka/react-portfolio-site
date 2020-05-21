@@ -24,6 +24,17 @@
   margin-left: 24px;
 }
 
+.tech-list {
+  list-style: none;
+  padding: 0;
+
+  .tech-list-item {
+    display: inline;
+    font-size: 18px;
+    opacity: 0.8;
+  }
+}
+
 .project-links {
   margin-left: 18px;
   margin-top: 16px;
