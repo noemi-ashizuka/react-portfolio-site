@@ -16,16 +16,19 @@ class About extends Component {
   render() {
     const {collections} = this.state;
     return(
-      <div className="page-container">
-        <h1 className="page-title">About Me</h1>
-          {
-            collections.map(({ imageUrl, description, ...otherCollectionProps }) => (
+      <div>
+        {
+          collections.map(({ title, imageUrl, description, ...otherCollectionProps }) => (
+            <div className="page-container"> 
+              <h1 className="page-title">{ title }</h1>
               <div className="content-container">
-                <div className="content-image">{ imageUrl }</div>
+                
+                <div className="content-image"><img src={ imageUrl } alt="a photo of Noemi" className="about-photo"></img></div>
                 <div className="content-text">{ description }</div>
               </div>
-            ))
-          }
+            </div>
+          ))
+        }
       </div>
     )
   }
