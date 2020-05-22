@@ -1,53 +1,63 @@
-.project-title {
- margin-left: 24px;
- font-size: 40px;
-}
+.content-container {
+  min-height: 100%;
+  padding-bottom: 300px;
 
-.project-images {
- width: 100%;
- height: 500px;
- 
- 
- .project-slide {
-   width: 100%;
-   margin: 0 auto;
- }
-
-  .project-slide-slim {
-   margin: 0 auto;
-   width: 280px;
-   height: 450px;
- }
-}
-
-.project-description {
-  margin-left: 24px;
-}
-
-.tech-list {
-  list-style: none;
-  padding: 0;
-
-  .tech-list-item {
-    display: inline;
-    font-size: 18px;
-    opacity: 0.8;
-  }
-}
-
-.project-links {
-  margin-left: 18px;
-  margin-top: 16px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  
-  .buttons-list {
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-
-    .list-item {
-      margin-left: 8px;
+  .project-title {
+    margin-left: 24px;
+    font-size: 40px;
+   }
+   
+   .project-images {
+    width: 100%;
+    height: 500px;
+    
+    
+    .project-slide {
+      width: 100%;
+      margin: 0 auto;
     }
-  }
+   
+     .project-slide-slim {
+      margin: 0 auto;
+      width: 280px;
+      height: 450px;
+    }
+   }
+   
+   .content-text {
+     
+     .project-description {
+       margin-left: 24px;
+     }
+     
+     .tech-list {
+       list-style: none;
+       padding: 0;
+     
+       .tech-list-item {
+         display: inline;
+         font-size: 18px;
+         opacity: 0.8;
+       }
+     }
+     
+     .project-links {
+       margin-left: 18px;
+       margin-top: 16px;
+       padding-top: 24px;
+       padding-bottom: 24px;
+       
+       .buttons-list {
+         padding: 0;
+         list-style-type: none;
+         display: flex;
+     
+         .list-item {
+           margin-left: 8px;
+         }
+       }
+     }
+   }
+   
 }
+
