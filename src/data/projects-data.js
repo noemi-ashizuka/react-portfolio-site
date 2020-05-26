@@ -9,15 +9,18 @@ const PROJECTS_DATA = [
     links: [
         {
           id: 1,
-          url: "github"
+          title: "github",
+          url: "https://github.com/noemi-ashizuka/clever_closet"
         },
         {
           id: 2,
-          url: "site"
+          title: "website",
+          url: "https://clever-closet-main.herokuapp.com/"
         },
         {
           id: 3,
-          url: "video"
+          title: "video",
+          url: "/"
         }
       ],
       technologies: [
@@ -40,15 +43,18 @@ const PROJECTS_DATA = [
     links: [
       {
         id: 1,
-        url: "github"
+        title: "github",
+        url: "https://github.com/noemi-ashizuka/tokyo-best-coffee-shops"
       },
       {
         id: 2,
-        url: "site"
+        title: "website",
+        url: "https://tokyo-best-coffee-api.herokuapp.com/"
       },
       {
         id: 3,
-        url: "video"
+        title: "video",
+        url: "/"
       }
     ],
     technologies: [
@@ -70,15 +76,18 @@ const PROJECTS_DATA = [
     links: [
       {
         id: 1,
-        url: "github"
+        title: "github",
+        url: "https://github.com/noemi-ashizuka/obi"
       },
       {
         id: 2,
-        url: "site"
+        title: "website",
+        url: "https://obi-kimono-rental.herokuapp.com/"
       },
       {
         id: 3,
-        url: "video"
+        title: "video",
+        url: "/"
       }
     ],
     technologies: [
@@ -100,15 +109,18 @@ const PROJECTS_DATA = [
     links: [
       {
         id: 1,
-        url: "github"
+        title: "github",
+        url: "https://github.com/noemi-ashizuka/rails-mister-cocktail"
       },
       {
         id: 2,
-        url: "site"
+        title: "website",
+        url: "https://bartender-mister.herokuapp.com/"
       },
       {
         id: 3,
-        url: "video"
+        title: "video",
+        url: "/"
       }
     ],
     technologies: [
@@ -130,15 +142,18 @@ const PROJECTS_DATA = [
     links: [
       {
         id: 1,
-        url: "github"
+        title: "github",
+        url: "https://github.com/noemi-ashizuka/rails-sailor-maker"
       },
       {
         id: 2,
-        url: "site"
+        title: "website",
+        url: "https://sailor-warrior-maker.herokuapp.com/"
       },
       {
         id: 3,
-        url: "video"
+        title: "video",
+        url: "/"
       }
     ],
     technologies: [

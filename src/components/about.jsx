@@ -23,7 +23,7 @@ class About extends Component {
               <h1 className="page-title">{ title }</h1>
               <div className="content-container">
                 
-                <div className="content-image"><img src={ imageUrl } alt="a photo of Noemi" className="about-photo"></img></div>
+                <div className="content-image"><img src={ imageUrl } alt="web developer" className="about-photo"></img></div>
                 <div className="content-text">{ description }</div>
               </div>
             </div>

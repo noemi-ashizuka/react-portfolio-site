@@ -20,7 +20,7 @@ class Header extends Component {
     const { isExpanded } = this.state;
     return(
     <div className="header-bar">
-      <Link className="logo" to="/">Logo</Link>
+      <Link className="logo" to="/"><i class="fas fa-code"></i></Link>
       <nav className="nav">
         <i
           className="fas fa-bars"

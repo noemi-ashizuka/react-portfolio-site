@@ -12,6 +12,7 @@ class ProjectDetails extends Component {
   render() {
     let project = PROJECTS_DATA.find(element => element.id === parseInt(this.props.match.params.projectId));
     
+    
     return(
       <div className="page-container">
         <div className="content-container">
@@ -36,13 +37,13 @@ class ProjectDetails extends Component {
               <h2>{project.specifications}</h2>
               <p>{project.description}</p>
               <ul className="tech-list">
-              {project.technologies.map((tech, index) =>( <li key={index} className="tech-list-item">{tech.name} </li>))}
+              {project.technologies.map((tech, index) =>( <li key={index} className="tech-list-item">{tech.name} | </li>))}
               </ul>
             </div>
             <div className="project-links">
               <div className="buttons-list">
               {project.links.map((link, index) => (
-                <a href="/" key={index}><CustomButton>{link.url}</CustomButton></a>
+                <a href={link.url} key={index}><CustomButton>{link.title}</CustomButton></a>
               ))} 
             </div>
           </div>
