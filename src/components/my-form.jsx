@@ -24,7 +24,7 @@ class MyForm extends React.Component {
         <label>Email:</label>
         <input className="form-input" type="email" name="email" placeholder="your-email@mail.com" />
         <label>Message:</label>
-        <input className="text-input" type="text" name="message" placeholder="your message" />
+        <textarea className="text-input" type="text" name="message" placeholder="your message" />
         {status === "SUCCESS" ? <p>Thanks!</p> : <CustomButton>Send</CustomButton>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
