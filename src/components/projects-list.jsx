@@ -16,7 +16,7 @@ class ProjectsList extends Component {
     const {collections} = this.state;
     return(
       <div className="page-container">
-        <h1 className="page-title">All my Projects</h1>
+        <div className="page-title"><h1>Projects</h1></div>
         <div className="project-list">
           {
             collections.map(({id, ...otherCollectionProps }) => (

@@ -20,7 +20,7 @@ class About extends Component {
         {
           collections.map(({ title, imageUrl, description, ...otherCollectionProps }) => (
             <div className="page-container"> 
-              <h1 className="page-title">{ title }</h1>
+              <div className="page-title"><h1>{ title }</h1></div>
               <div className="content-container">
                 <div className="content-image"><img src={ imageUrl } alt="web developer" className="about-photo"></img></div>
                 <div className="content-text">{ description.map((par) => <p>{par}</p>) }</div>
