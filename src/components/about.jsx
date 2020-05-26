@@ -24,7 +24,7 @@ class About extends Component {
               <div className="content-container">
                 
                 <div className="content-image"><img src={ imageUrl } alt="web developer" className="about-photo"></img></div>
-                <div className="content-text">{ description }</div>
+          <div className="content-text">{ description.map((par) => <p>{par}</p>) }</div>
               </div>
             </div>
           ))
