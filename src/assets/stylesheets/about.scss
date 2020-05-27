@@ -36,30 +36,46 @@
   .left-list {
     width: 50%;
 
+    ul {
+      display: inline-block;
+    }
+
     li {
       list-style: none;
-      background-color: #25163f;
-      color: white;
+      border: 1px solid  #25163f;
       border-radius: 32px;
       padding: 16px;
       text-align: center;
-      width: 40%;
+    }
+
+    .skill-title {
+      font-size: 32px;
+      padding: 24px;
+      margin-left: 16px;
     }
   }
 
   .right-list {
     width: 50%;
-    margin-right: 24px;
+
+    ul {
+      display: inline-block;
+    }
 
     li {
       list-style: none;
       padding: 0;
-      background-color: #25163f;
-      color: white;
+      border: 1px solid  #25163f;
       border-radius: 32px;
       padding: 16px;
       text-align: center;
-      width: 40%;
+      
+    }
+
+    .skill-title {
+      font-size: 32px;
+      padding: 24px;
+      margin-left: 16px;
     }
   }
 }
@@ -76,10 +92,11 @@
     }
   }
 
-  .right-list, .left-list {
-    li {
-      width: 50%;
+  .skills-container {
+    flex-wrap: wrap;
+
+    .right-list, .left-list {
+    width: 100%;
     }
   }
-  
 }

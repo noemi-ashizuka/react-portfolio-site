@@ -27,9 +27,11 @@ class About extends Component {
               </div>
               <div className="skills-container">
                 <div className="left-list">
+                  <h2 className="skill-title">Tech Skills</h2>
                   { techSkills.map((skill) => <ul><li>{skill}</li></ul>) }
                 </div>
                 <div className="right-list">
+                <h2 className="skill-title">Other Skills</h2>
                   { otherSkills.map((skill) => <ul><li>{skill}</li></ul>) }
                 </div>
               </div>

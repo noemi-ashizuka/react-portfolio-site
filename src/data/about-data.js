@@ -11,7 +11,7 @@ const ABOUT_DATA = [
       "I would describe myself as curious and hard working. I enjoy programming and the constant learning that comes with it. I like to be challenged and I don’t give up until I complete my tasks."
     ],
     techSkills: ["Ruby on Rails", "HTML", "CSS/SCSS", "JavaScript", "Object Oriented Programming", "SQL", "React", "API", "GIT", "Github", "Heroku", "Test-Driven Development", "Wireframing and design", "Figma", "Photoshop"],
-    otherSkills: ["Communication skills", "Ability to deliver effective presentations", "Public speaking", "Teaching", "Teamwork", "Leadership", "Italian(fluent)", "English(fluent/CPE cambridge C2", "Japanese(conversational/JLPT N3"]
+    otherSkills: ["Communication skills", "Ability to deliver effective presentations", "Public speaking", "Teaching", "Teamwork", "Leadership", "Italian (fluent)", "English (fluent/CPE cambridge C2)", "Japanese (conversational/JLPT N3)"]
   }
 ]
 
