@@ -18,12 +18,20 @@ class About extends Component {
     return(
       <div>
         {
-          collections.map(({ title, imageUrl, description, ...otherCollectionProps }) => (
+          collections.map(({ title, imageUrl, description, techSkills, otherSkills, ...otherCollectionProps }) => (
             <div className="page-container"> 
               <div className="page-title"><h1>{ title }</h1></div>
               <div className="content-container">
                 <div className="content-image"><img src={ imageUrl } alt="web developer" className="about-photo"></img></div>
                 <div className="content-text">{ description.map((par) => <p>{par}</p>) }</div>
+              </div>
+              <div className="skills-container">
+                <div className="left-list">
+                  { techSkills.map((skill) => <ul><li>{skill}</li></ul>)}
+                </div>
+                <div className="right-list">
+                  { otherSkills.map((skill) => <ul><li>{skill}</li></ul>)}
+                </div>
               </div>
             </div>
           ))
