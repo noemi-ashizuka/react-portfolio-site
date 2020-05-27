@@ -24,6 +24,42 @@
   }
 }
 
+.skills-container {
+  display: flex;
+  margin-top: 0;
+  width: 100%;
+  
+  .left-list {
+    width: 50%;
+
+    li {
+      list-style: none;
+      background-color: #25163f;
+      color: white;
+      border-radius: 32px;
+      padding: 16px;
+      text-align: center;
+      width: 40%;
+    }
+  }
+
+  .right-list {
+    width: 50%;
+    margin-right: 24px;
+
+    li {
+      list-style: none;
+      padding: 0;
+      background-color: #25163f;
+      color: white;
+      border-radius: 32px;
+      padding: 16px;
+      text-align: center;
+      width: 40%;
+    }
+  }
+}
+
 @media (max-width: 600px) {
   .content-container {
     flex-wrap: wrap;
@@ -35,4 +71,11 @@
       width: 100%;
     }
   }
+
+  .right-list, .left-list {
+    li {
+      width: 50%;
+    }
+  }
+  
 }
