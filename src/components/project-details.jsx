@@ -15,6 +15,7 @@ class ProjectDetails extends Component {
     
     return(
       <div className="page-container">
+        <div className="spacer"></div>
         <div className="content-container">
           <div className="content-image">
             <div className="project-images">
