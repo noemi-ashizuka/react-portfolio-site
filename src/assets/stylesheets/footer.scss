@@ -1,9 +1,12 @@
 .footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 70px;
   margin-top: 70px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   background-color: black;
 
   .footer-links {
