@@ -3,7 +3,7 @@ const ABOUT_DATA = [
     id: 1,
     title: "About Noemi",
     imageUrl: "https://res.cloudinary.com/dtewjoisz/image/upload/v1590139080/projects/about/noemi_orpg03.png",
-    groupPhotoUrl: "https://res.cloudinary.com/dtewjoisz/image/upload/v1590627101/projects/about/IMG_7003_cqdaog.jpg",
+    groupPhotoUrl: "https://res.cloudinary.com/dtewjoisz/image/upload/v1590628233/projects/about/IMG_7004_x12op8.jpg",
     contactPhotoUrl: "https://res.cloudinary.com/dtewjoisz/image/upload/v1590627123/projects/about/noemipic_mk5j5c.jpg",
     myStory: ["Hello, my name is Salvina Noemi, or just Noemi. I am an Italian web developer.", 
       "In my 20s I left Italy to live first in London and then in Tokyo. I have been living in Tokyo for 3 years.", 
