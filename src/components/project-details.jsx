@@ -46,6 +46,7 @@ class ProjectDetails extends Component {
               {project.links.map((link, index) => (
                 <a href={link.url} key={index}><CustomButton>{link.title}</CustomButton></a>
               ))} 
+              <span>video coming soon</span>
             </div>
           </div>
         </div>

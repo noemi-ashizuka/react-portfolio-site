@@ -35,7 +35,7 @@ class About extends Component {
                   <h2>About programming</h2>
                   { aboutTech.map((par, index) => <p key={index}>{par}</p>) }
                   <h3>Featured</h3>
-                  <ul className="feat-list" key={1}>
+                  <ul className="feat-list">
                     { links.map((link) => 
                         <li className="feat-item" key={link.id}>
                           <a target="_blank" rel="noopener noreferrer" href={link.url}>{link.icon} {link.title}</a>
