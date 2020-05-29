@@ -50,11 +50,15 @@ class About extends Component {
               <div className="skills-container">
                 <div className="left-list">
                   <h2 className="skill-title">Tech Skills</h2>
-                  { techSkills.map((skill, index) => <ul><li key={index}>{skill}</li></ul>) }
+                  <ul>
+                    { techSkills.map((skill, index) => <li key={index}>{skill}</li>) }
+                  </ul>
                 </div>
                 <div className="right-list">
                 <h2 className="skill-title">Other Skills</h2>
-                  { otherSkills.map((skill, index) => <ul><li key={index}>{skill}</li></ul>) }
+                <ul>
+                  { otherSkills.map((skill, index) => <li key={index}>{skill}</li>) }
+                </ul>
                 </div>
               </div>
             </div>
