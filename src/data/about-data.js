@@ -1,3 +1,5 @@
+import React from 'react';
+
 const ABOUT_DATA = [
   {
     id: 1,
@@ -19,11 +21,13 @@ const ABOUT_DATA = [
       {
         id: 1,
         title: "Le Wagon Demo Day batch #363",
+        icon: <i className="fab fa-youtube"></i>,
         url: "https://www.youtube.com/watch?v=hV3tRDmsq-A&feature=youtu.be"
       },
       {
         id: 2,
         title: "Article: Women graduates Tokyo",
+        icon: <i className="far fa-newspaper"></i>,
         url: "https://www.lewagon.com/blog/women-graduates-tokyo"
       }
     ]

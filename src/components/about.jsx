@@ -27,17 +27,21 @@ class About extends Component {
                 </div>
                 <div className="content-text">
                   <h2>Background</h2>
-                  { myStory.map((par) => <p>{par}</p>) }
+                  { myStory.map((par, index) => <p key={index}>{par}</p>) }
                 </div>
               </div>
               <div className="content-container">
                 <div className="content-text">
                   <h2>About programming</h2>
-                  { aboutTech.map((par) => <p>{par}</p>) }
+                  { aboutTech.map((par, index) => <p key={index}>{par}</p>) }
                   <h3>Featured</h3>
-                  <ul className="feat-list">
-                    { links.map((link) => <li className="feat-item" key={link.id}><a target="_blank" rel="noopener noreferrer" href={link.url}>{link.title}</a></li>)}
-                  </ul>
+                  <ul className="feat-list" key={1}>
+                    { links.map((link) => 
+                        <li className="feat-item" key={link.id}>
+                          <a target="_blank" rel="noopener noreferrer" href={link.url}>{link.icon} {link.title}</a>
+                        </li>
+                    )}
+                </ul>
                 </div>
                 <div className="content-image">
                   <img src={ groupPhotoUrl } alt="Le Wagon batch 363" className="about-photo"></img>
@@ -46,11 +50,11 @@ class About extends Component {
               <div className="skills-container">
                 <div className="left-list">
                   <h2 className="skill-title">Tech Skills</h2>
-                  { techSkills.map((skill) => <ul><li>{skill}</li></ul>) }
+                  { techSkills.map((skill, index) => <ul><li key={index}>{skill}</li></ul>) }
                 </div>
                 <div className="right-list">
                 <h2 className="skill-title">Other Skills</h2>
-                  { otherSkills.map((skill) => <ul><li>{skill}</li></ul>) }
+                  { otherSkills.map((skill, index) => <ul><li key={index}>{skill}</li></ul>) }
                 </div>
               </div>
             </div>
