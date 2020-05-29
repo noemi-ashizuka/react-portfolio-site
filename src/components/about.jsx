@@ -18,7 +18,7 @@ class About extends Component {
     return(
       <div>
         {
-          collections.map(({ title, imageUrl, myStory, groupPhotoUrl, aboutTech, techSkills, otherSkills, ...otherCollectionProps }) => (
+          collections.map(({ title, imageUrl, myStory, groupPhotoUrl, aboutTech, links, techSkills, otherSkills, ...otherCollectionProps }) => (
             <div className="page-container"> 
               <div className="page-title"><h1>{ title }</h1></div>
               <div className="content-container">
@@ -34,6 +34,10 @@ class About extends Component {
                 <div className="content-text">
                   <h2>About programming</h2>
                   { aboutTech.map((par) => <p>{par}</p>) }
+                  <h3>Featured</h3>
+                  <ul className="feat-list">
+                    { links.map((link) => <li className="feat-item" key={link.id}><a target="_blank" rel="noopener noreferrer" href={link.url}>{link.title}</a></li>)}
+                  </ul>
                 </div>
                 <div className="content-image">
                   <img src={ groupPhotoUrl } alt="Le Wagon batch 363" className="about-photo"></img>
