@@ -22,7 +22,7 @@ const ABOUT_DATA = [
         id: 1,
         title: "Le Wagon Demo Day batch #363",
         icon: <i className="fab fa-youtube link-icon"></i>,
-        url: "https://www.youtube.com/watch?v=hV3tRDmsq-A&feature=youtu.be"
+        url: "https://youtu.be/STqGjE6j5AI"
       },
       {
         id: 2,
