@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+// import Logo from './logo.svg';
 
 class Header extends Component {
   constructor(props) {
@@ -20,7 +21,7 @@ class Header extends Component {
     const { isExpanded } = this.state;
     return(
     <div className="header-bar">
-      <Link className="logo" to="/"><i className="fas fa-code"></i></Link>
+      <Link to="/" className="logo"><i className="fas fa-code"></i></Link>
       <nav className="nav">
         <i
           className="fas fa-bars"
@@ -30,11 +31,9 @@ class Header extends Component {
         
         <div className="header-links">
           <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
-            <span className="bg-link">
               <Link className="link" to="/about">
                 About
               </Link>
-            </span>
             <span className="divisor">/</span>
             <Link className="link" to="/projects">
               Projects

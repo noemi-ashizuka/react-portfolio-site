@@ -20,27 +20,25 @@
 .header-links {
   display: flex;
   justify-content: flex-end;
-  //background-color: red;
 }
 
-  .link {
-    text-decoration: none;
-    margin-left: 16px;
-    margin-right: 16px;
-    color: white;
-    font-size: 24px;
-  }
+.link {
+  text-decoration: none;
+  margin-left: 16px;
+  margin-right: 16px;
+  color: white;
+  font-size: 24px;
+}
 
-  .link:focus {
-    background-color: #25163f;
-    padding: 4px;
-  }
+.link:focus {
+  background-color: #25163f;
+  padding: 4px;
+}
 
-
-  .divisor {
-    color: white;
-    font-size: 24px;
-  }
+.divisor {
+  color: white;
+  font-size: 24px;
+}
 
 
 nav {
@@ -80,7 +78,6 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    
     overflow: hidden;
     max-height: 0;
     -moz-transition-duration: 0.4s;
@@ -98,7 +95,6 @@ nav {
       background-color: rgba(0, 0, 0, 0.5);
       padding: 24px;
       margin-top: 48px;
-      
       -moz-transition-duration: 0.4s;
       -webkit-transition-duration: 0.4s;
       -o-transition-duration: 0.4s;
@@ -107,6 +103,12 @@ nav {
       -webkit-transition-timing-function: ease-in;
       -o-transition-timing-function: ease-in;
       transition-timing-function: ease-in;
+
+      .link:focus {
+        background-color: rgba(37, 22, 63, 0.7);
+        width: 100%;
+        margin: 0;
+      }
     }
   }
 }
