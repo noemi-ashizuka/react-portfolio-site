@@ -22,10 +22,10 @@ class MyForm extends React.Component {
         method="POST"
       >
         <label>Email:</label>
-        <input className="form-input" type="email" name="email" placeholder="your-email@mail.com" />
+        <input className="form-input" type="email" name="email" placeholder="Your-email@mail.com" />
         <label>Message:</label>
-        <textarea className="text-input" type="text" name="message" placeholder="your message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <CustomButton>Send</CustomButton>}
+        <textarea className="text-input" type="text" name="message" placeholder="Your message" />
+        {status === "SUCCESS" ? <p>Thank you!</p> : <CustomButton>Send</CustomButton>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
     );
