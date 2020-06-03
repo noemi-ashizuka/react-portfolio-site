@@ -32,8 +32,10 @@
   }
 
   .link:focus {
-    border-bottom: 1px solid white;
+    background-color: #25163f;
+    padding: 4px;
   }
+
 
   .divisor {
     color: white;

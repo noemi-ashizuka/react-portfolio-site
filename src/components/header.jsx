@@ -30,9 +30,11 @@ class Header extends Component {
         
         <div className="header-links">
           <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
-            <Link className="link" to="/about">
-              About
-            </Link>
+            <span className="bg-link">
+              <Link className="link" to="/about">
+                About
+              </Link>
+            </span>
             <span className="divisor">/</span>
             <Link className="link" to="/projects">
               Projects
