@@ -2,8 +2,8 @@ const PROJECTS_DATA = [
   {
     id: 1,
     title: "Clever Closet",
-    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1589444010/projects/cc_card_zv9kv9.jpg",
-    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1589448644/projects/projects-slides/cc_home_bohxw7.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448654/projects/projects-slides/cc_profile_fewivn.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448661/projects/projects-slides/cc_new_look_mwrgn9.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448663/projects/projects-slides/cc_look_clkx9f.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448657/projects/projects-slides/cc_friends_sm7xw3.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448658/projects/projects-slides/cc_closet_cwwgdl.png"],
+    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/cover2_v4jalr.png",
+    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/cc_home_pbgd4p.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/cc_profile_hwcmzn.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/cc_look_c2qsbz.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/cc_friends_fvkob0.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/cc_new_look_usosyb.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/cc_closet_rscwak.png"],
     specifications: "Group project | Role: team manager | Time: 2 weeks",
     description: "Clever Closet is an app to manage your wardrobe and help reduce the impact of fast fashion on the environment. How does it do that? Simple, with Clever Clothes you can share clothes with friends, create looks for yourself and your friends to make the most of the clothes you already own. In this project I was responsible for my team workflow, and I coded for the backend as well as the frontend.",
     links: [

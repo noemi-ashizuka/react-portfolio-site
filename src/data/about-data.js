@@ -4,8 +4,8 @@ const ABOUT_DATA = [
   {
     id: 1,
     title: "About Noemi",
-    imageUrl: "https://res.cloudinary.com/dtewjoisz/image/upload/v1590139080/projects/about/noemi_orpg03.png",
-    groupPhotoUrl: "https://res.cloudinary.com/dtewjoisz/image/upload/v1590628233/projects/about/IMG_7004_x12op8.jpg",
+    imageUrl: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347934/website-resized/noemi_gipna1.png",
+    groupPhotoUrl: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/le_wagon_363_x1p6tw.jpg",
     contactPhotoUrl: "https://res.cloudinary.com/dtewjoisz/image/upload/v1590627123/projects/about/noemipic_mk5j5c.jpg",
     myStory: ["Hello, my name is Salvina Noemi, or just Noemi. I am an Italian web developer.", 
       "In my 20s I left Italy to live first in London and then in Tokyo. I have been living in Tokyo for 3 years.", 
