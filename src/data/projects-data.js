@@ -71,7 +71,7 @@ const PROJECTS_DATA = [
     title: "Obi",
     titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/obi_home_ac0squ.png",
     imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/obi_home_ac0squ.png","https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/obi_dashnoe_rkid71.png","https://res.cloudinary.com/dtewjoisz/image/upload/v1591347934/website-resized/obi_listings_wxmywl.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347934/website-resized/obi_show_ttuhef.png"],
-    specifications: "Group project | Role: team manager | Time: 1 weeks",
+    specifications: "Group project | Role: team manager | Time: 1 week",
     description: "Obi is a marketplace where people can rent or lend kimonos of many different types. For this project I was responsible for database design, assigning tasks to the team, code reviews and coding for the backend as well as frontend.",
     links: [
       {

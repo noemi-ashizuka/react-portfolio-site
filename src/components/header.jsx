@@ -20,32 +20,32 @@ class Header extends Component {
   render() {
     const { isExpanded } = this.state;
     return(
-    <div className="header-bar">
-      <Link to="/" className="logo"><i className="fas fa-code"></i></Link>
-      <nav className="nav">
-        <i
-          className="fas fa-bars"
-          aria-hidden="true"
-          onClick={e => this.handleToggle(e)}
-        />
-        
-        <div className="header-links">
-          <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
+      <div className="header-bar">
+        <Link to="/" className="logo"><i className="fas fa-code"></i></Link>
+        <nav className="nav">
+          <i
+            className="fas fa-bars"
+            aria-hidden="true"
+            onClick={e => this.handleToggle(e)}
+          />
+          
+          <div className="header-links">
+            <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
               <Link className="link" to="/about">
                 About
               </Link>
-            <span className="divisor">/</span>
-            <Link className="link" to="/projects">
-              Projects
-            </Link>
-            <span className="divisor">/</span>
-            <Link className="link" to="/contact">
-              Contact
-            </Link>
-          </ul>
-        </div>
-      </nav>
-    </div>
+              <span className="divisor">/</span>
+              <Link className="link" to="/projects">
+                Projects
+              </Link>
+              <span className="divisor">/</span>
+              <Link className="link" to="/contact">
+                Contact
+              </Link>
+            </ul>
+          </div>
+        </nav>
+      </div>
     )
   }
 }
