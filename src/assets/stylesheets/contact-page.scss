@@ -1,6 +1,6 @@
 .title-center {
   text-align: center;
- padding: 0;
+  padding: 0;
 }
 
 .image-round {
@@ -25,5 +25,17 @@
     margin: 16px;
     text-decoration: none;
     color: #25163f;
+  }
+}
+
+@media (max-width: 600px) {
+  .image-round {
+    img {
+      width: 100px;
+    }
+  }
+
+  .title-center {
+    font-size: 24px;
   }
 }
