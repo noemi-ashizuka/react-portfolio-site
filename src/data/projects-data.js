@@ -36,8 +36,8 @@ const PROJECTS_DATA = [
   {
     id: 2,
     title: "Tokyo Best Coffee Shops",
-    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448628/projects/projects-slides/coffee_home_ocr3bh.png",
-    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1589448628/projects/projects-slides/coffee_home_ocr3bh.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448630/projects/projects-slides/coffee_show_almto0.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448633/projects/projects-slides/coffee_list_jykunx.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448634/projects/projects-slides/coffee_api_dqt7yg.png"],
+    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/coffee_home_l0tdad.png",
+    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/coffee_home_l0tdad.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/coffee_show_dmvlaw.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/coffee_list_jfusmp.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/coffee_api_f2101y.png"],
     specifications: "Solo project",
     description: "An app to create articles about the best coffee shops in Tokyo. It includes reviews and menus and any user can contribute and help others find hidden gems. It also includes an API with all the users coffee shops data.",
     links: [
@@ -69,8 +69,8 @@ const PROJECTS_DATA = [
   {
     id: 3,
     title: "Obi",
-    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1589181638/projects/Screen_Shot_2020-03-18_at_20.03.50_x8g6kt.png",
-    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1589448667/projects/projects-slides/obi_home_hu9u8r.png","https://res.cloudinary.com/dtewjoisz/image/upload/v1589448652/projects/projects-slides/obi_show_kpymul.png","https://res.cloudinary.com/dtewjoisz/image/upload/v1589448647/projects/projects-slides/obi_dashnoe_u1jral.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448650/projects/projects-slides/obi_listings_qzkawa.png"],
+    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/obi_home_ac0squ.png",
+    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/obi_home_ac0squ.png","https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/obi_dashnoe_rkid71.png","https://res.cloudinary.com/dtewjoisz/image/upload/v1591347934/website-resized/obi_listings_wxmywl.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347934/website-resized/obi_show_ttuhef.png"],
     specifications: "Group project | Role: team manager | Time: 1 weeks",
     description: "Obi is a marketplace where people can rent or lend kimonos of many different types.For this project I was responsible for database design, assigning tasks to the team and coding for the backend as well as frontend.",
     links: [
@@ -102,8 +102,8 @@ const PROJECTS_DATA = [
   {
     id: 4,
     title: "Bartender Cocktail",
-    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1589181624/projects/bc_home_ufoydh.png",
-    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1589181624/projects/bc_home_ufoydh.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448643/projects/projects-slides/bc_list_orpcm0.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448640/projects/projects-slides/bc_card_two_iieh4i.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448636/projects/projects-slides/bc_card_one_gffplt.png"],
+    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/bc_home_lvqvry.png",
+    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/bc_home_lvqvry.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/bc_card_one_ulvune.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/bc_list_kolgh3.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/bc_card_two_xrpyju.png"],
     description: "Project for Le Wagon bootcamp. The purpose was to learn how to develop an app with complex databases relations.",
     specifications: "Solo project | Time: 2 days",
     links: [
@@ -135,8 +135,8 @@ const PROJECTS_DATA = [
   {
     id: 5,
     title: "Sailor Maker",
-    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1589181647/projects/swm_home_hq02br.png",
-    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1589181647/projects/swm_home_hq02br.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448669/projects/projects-slides/swm_card_x8oilh.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448676/projects/projects-slides/swm_list_shho5v.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1589448674/projects/projects-slides/swm_card_two_kkgilh.png"],
+    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/swm_home_eeqvsl.png",
+    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/swm_home_eeqvsl.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/swm_card_enauin.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347939/website-resized/swm_list_i7eown.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347936/website-resized/swm_card_two_gmxno4.png"],
     description: "Le Wagon weekend challenge. I decided to go for something I am passionate about and created an app where people can upload their own Sailor Scouts and choose powers for them.",
     specifications: "Solo project | Time: 2 days",
     links: [
