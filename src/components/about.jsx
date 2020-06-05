@@ -34,19 +34,21 @@ class About extends Component {
                 <div className="content-text">
                   <h2>About programming</h2>
                   { aboutTech.map((par, index) => <p key={index}>{par}</p>) }
-                  <h3>Featured</h3>
+                </div>
+                <div className="content-image">
+                  <img src={ groupPhotoUrl } alt="Le Wagon batch 363" className="about-photo"></img>
+                </div>
+              </div>
+              <div className="feat">
+                <h2>Featured</h2>
                   <ul className="feat-list">
                     { links.map((link) => 
                         <li className="feat-item" key={link.id}>
                           <a target="_blank" rel="noopener noreferrer" href={link.url}>{link.icon} {link.title}</a>
                         </li>
                     )}
-                </ul>
+                  </ul>
                 </div>
-                <div className="content-image">
-                  <img src={ groupPhotoUrl } alt="Le Wagon batch 363" className="about-photo"></img>
-                </div>
-              </div>
               <div className="skills-container">
                 <div className="left-list">
                   <h2 className="skill-title">Tech Skills</h2>
