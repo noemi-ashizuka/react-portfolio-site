@@ -38,7 +38,7 @@ class ProjectDetails extends Component {
               <h2>{project.specifications}</h2>
               <p>{project.description}</p>
               <ul className="tech-list">
-              {project.technologies.map((tech, index) =>( <li key={index} className="tech-list-item">{tech.name} | </li>))}
+              {project.technologies.map((tech, index) =>( <li key={index} className="tech-list-item"> {tech.name} </li>))}
               </ul>
             </div>
             <div className="project-links">

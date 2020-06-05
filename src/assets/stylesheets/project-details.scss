@@ -28,9 +28,11 @@
      
     .project-description {
       margin-left: 24px;
+      margin-bottom: 24px;
     }
     
     .tech-list {
+      margin-top: 32px;
       list-style: none;
       padding: 0;
     
@@ -38,6 +40,15 @@
         display: inline;
         font-size: 18px;
         opacity: 0.8;
+        background-color: #25163f;
+        color: white;
+        padding-left: 10px;
+        padding-right: 8px;
+        padding-top: 4px;
+        padding-bottom: 6px;
+        margin: 2px;
+        border-radius: 24px;
+        text-align: center;
       }
     }
      
