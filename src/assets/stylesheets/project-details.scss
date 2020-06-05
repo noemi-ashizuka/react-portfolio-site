@@ -74,3 +74,25 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .buttons-list {
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+
+  .content-text {
+  
+    .project-description {
+  
+      h2 {
+        font-size: 24px;
+      }
+    }
+  }
+}
