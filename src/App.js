@@ -15,10 +15,10 @@ import Contact from './components/contact';
 function App() {
   return (
   <div>
-    <Route exact path='/' component={HomePage} />
+    {/* <Route exact path='/' component={HomePage} />
     <Route path='/about' component={About} />
     <Route exact path='/projects' component={ProjectsList} />
-    <Route path='/contact' component={Contact} />
+    <Route path='/contact' component={Contact} /> */}
     <Header />
     <Main />
     <Footer />
