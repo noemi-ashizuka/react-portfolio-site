@@ -30,7 +30,9 @@ const PROJECTS_DATA = [
         {name: "SCSS", iconUrl: ""},
         {name: "JavaScript", iconUrl: ""},
         {name: "PostgreSQL", iconUrl: ""},
-        {name: "Figma", iconUrl: ""}
+        {name: "Figma", iconUrl: ""},
+        {name: "PWA", iconUrl: ""},
+        {name: "Mobile First App", iconUrl: ""}
       ]
   },
   {
@@ -63,7 +65,8 @@ const PROJECTS_DATA = [
       {name: "HTML", iconUrl: ""},
       {name: "SCSS", iconUrl: ""},
       {name: "JavaScript", iconUrl: ""},
-      {name: "PostgreSQL", iconUrl: ""}
+      {name: "PostgreSQL", iconUrl: ""},
+      {name: "API", iconUrl: ""}
     ]
   },
   {
