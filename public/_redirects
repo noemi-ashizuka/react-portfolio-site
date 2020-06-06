@@ -1,0 +1,5 @@
+/                 /               200
+/about            /about          200
+/projects         /projects       200
+/contact          /contact        200
+/projects/:id     /projects/:id   200
