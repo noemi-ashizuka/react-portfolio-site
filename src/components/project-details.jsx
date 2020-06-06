@@ -10,6 +10,7 @@ import PROJECTS_DATA from '../data/projects-data';
 class ProjectDetails extends Component {
 
   render() {
+    console.log(this.props.match.params.projectId)
     let project = PROJECTS_DATA.find(element => element.id === parseInt(this.props.match.params.projectId));
     
     
