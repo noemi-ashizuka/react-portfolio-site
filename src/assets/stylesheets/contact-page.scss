@@ -29,11 +29,17 @@
 }
 
 @media (max-width: 600px) {
-  .image-round {
-    img {
-      width: 100px;
+  .content-image {
+    width: 100%;
+
+    .image-round {
+      
+      img {
+        width: 100px;
+      }
     }
   }
+  
 
   .title-center {
     font-size: 24px;
