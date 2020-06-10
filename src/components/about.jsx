@@ -13,6 +13,10 @@ class About extends Component {
     }
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     const {collections} = this.state;
     return(

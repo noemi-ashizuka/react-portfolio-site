@@ -5,6 +5,10 @@ import MyForm from './my-form';
 import '../assets/stylesheets/contact-page.scss';
 
 const Contact = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return(
     <div className="page-container">
       <div className="page-title title-center">
