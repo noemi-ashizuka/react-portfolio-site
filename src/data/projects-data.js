@@ -1,6 +1,40 @@
 const PROJECTS_DATA = [
   {
     id: 1,
+    title: "Bijin Carte",
+    titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1600917543/projects/bc_title_cover_xc0lja.png",
+    imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1600916521/projects/bc_home_ioqnnq.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916521/projects/bc_about_gf6cad.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916521/projects/bc_shindan_btxcjv.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916530/projects/bc_shindan_result_gympoj.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916522/projects/bc_shindan_result_3_u8mnpa.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916522/projects/bc_lessons_lfbhhv.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916522/projects/bc_lessons_details_khpsci.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916522/projects/bc_faq_fil3df.png"],
+    description: "Freelance project for a client. The client requested a website with a content manager for her side business. Followed the specific design requests from the client.",
+    specifications: "Solo project | 1 Month",
+    links: [
+      {
+        id: 1,
+        title: "github",
+        url: "https://github.com/noemi-ashizuka/bijin_carte"
+      },
+      {
+        id: 2,
+        title: "website",
+        url: "https://bijin-carte.com"
+      },
+      {
+        id: 3,
+        title: "video",
+        url: "/"
+      }
+    ],
+    technologies: [
+      {name: "Gatsby JS", iconUrl: ""},
+      {name: "React JS", iconUrl: ""},
+      {name: "HTML", iconUrl: ""},
+      {name: "SCSS", iconUrl: ""},
+      {name: "JavaScript", iconUrl: ""},
+      {name: "Wordpress", iconUrl: ""},
+      {name: "GraphQL", iconUrl: ""}
+    ]
+  },
+  {
+    id: 2,
     title: "Clever Closet",
     titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/cover2_v4jalr.png",
     imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/cc_home_pbgd4p.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/cc_profile_hwcmzn.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/cc_look_c2qsbz.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/cc_friends_fvkob0.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/cc_new_look_usosyb.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/cc_closet_rscwak.png"],
@@ -36,7 +70,7 @@ const PROJECTS_DATA = [
       ]
   },
   {
-    id: 2,
+    id: 3,
     title: "Tokyo Best Coffee Shops",
     titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/coffee_home_l0tdad.png",
     imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/coffee_home_l0tdad.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/coffee_show_dmvlaw.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/coffee_list_jfusmp.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/coffee_api_f2101y.png"],
@@ -70,7 +104,7 @@ const PROJECTS_DATA = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: "Obi",
     titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/obi_home_ac0squ.png",
     imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/obi_home_ac0squ.png","https://res.cloudinary.com/dtewjoisz/image/upload/v1591347933/website-resized/obi_dashnoe_rkid71.png","https://res.cloudinary.com/dtewjoisz/image/upload/v1591347934/website-resized/obi_listings_wxmywl.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347934/website-resized/obi_show_ttuhef.png"],
@@ -103,7 +137,7 @@ const PROJECTS_DATA = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: "Bartender Cocktail",
     titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/bc_home_lvqvry.png",
     imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/bc_home_lvqvry.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/bc_card_one_ulvune.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/bc_list_kolgh3.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347932/website-resized/bc_card_two_xrpyju.png"],
@@ -136,7 +170,7 @@ const PROJECTS_DATA = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: "Sailor Maker",
     titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/swm_home_eeqvsl.png",
     imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/swm_home_eeqvsl.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347935/website-resized/swm_card_enauin.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347939/website-resized/swm_list_i7eown.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1591347936/website-resized/swm_card_two_gmxno4.png"],

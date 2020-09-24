@@ -30,7 +30,7 @@ class ProjectDetails extends Component {
                   src={url} 
                   alt="website project" 
                   key={index} 
-                  className={project.id === 1? "project-slide-slim" : "project-slide"}>
+                  className={project.id === 1 || 2 ? "project-slide-slim" : "project-slide"}>
                   </img>
                 ))
               }

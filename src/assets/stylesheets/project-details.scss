@@ -35,17 +35,19 @@
       margin-top: 32px;
       list-style: none;
       padding: 0;
+      display: flex;
+      flex-wrap: wrap;
     
       .tech-list-item {
         display: inline;
-        font-size: 18px;
+        font-size: 14px;
         opacity: 0.8;
         background-color: #25163f;
         color: white;
         padding-left: 10px;
         padding-right: 8px;
         padding-top: 4px;
-        padding-bottom: 6px;
+        padding-bottom: 4px;
         margin: 2px;
         border-radius: 24px;
         text-align: center;
