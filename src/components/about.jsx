@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
 import ABOUT_DATA from '../data/about-data';
-
 import '../assets/stylesheets/about.scss';
 
 class About extends Component {

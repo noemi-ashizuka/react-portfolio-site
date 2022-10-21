@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from 'nuka-carousel';
-
 import CustomButton from './custom-button';
-
 import '../assets/stylesheets/project-details.scss';
 import PROJECTS_DATA from '../data/projects-data';
 
@@ -61,10 +59,4 @@ class ProjectDetails extends Component {
   }
 }
   
-
-
-  
- 
-
 export default ProjectDetails;
-

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import '../assets/stylesheets/buttons.scss';
 
 const CustomButton = ({children, ...otherProps}) => (

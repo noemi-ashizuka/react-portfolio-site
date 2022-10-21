@@ -1,5 +1,4 @@
 import React from 'react';
-
 import '../assets/stylesheets/banner.scss';
 
 const Banner = () => (

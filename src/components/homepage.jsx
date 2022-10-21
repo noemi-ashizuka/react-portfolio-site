@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Banner from './banner';
 
 class Home extends Component {

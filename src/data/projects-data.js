@@ -4,7 +4,7 @@ const PROJECTS_DATA = [
     title: "Bijin Carte",
     titleImg: "https://res.cloudinary.com/dtewjoisz/image/upload/v1600917543/projects/bc_title_cover_xc0lja.png",
     imagesUrls: ["https://res.cloudinary.com/dtewjoisz/image/upload/v1600916521/projects/bc_home_ioqnnq.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916521/projects/bc_about_gf6cad.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916521/projects/bc_shindan_btxcjv.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916530/projects/bc_shindan_result_gympoj.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916522/projects/bc_shindan_result_3_u8mnpa.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916522/projects/bc_lessons_lfbhhv.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916522/projects/bc_lessons_details_khpsci.png", "https://res.cloudinary.com/dtewjoisz/image/upload/v1600916522/projects/bc_faq_fil3df.png"],
-    description: "Freelance project for a client. The client requested a website with a content manager for her side business. Followed the specific design requests from the client.",
+    description: "Freelance project. The client requested a website with a content manager for her side business. Followed the specific design requests from the client.",
     specifications: "Solo project | 1 Month",
     links: [
       {

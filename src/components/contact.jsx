@@ -1,7 +1,5 @@
 import React from 'react';
-
 import MyForm from './my-form';
-
 import '../assets/stylesheets/contact-page.scss';
 
 const Contact = () => {

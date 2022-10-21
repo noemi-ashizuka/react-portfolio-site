@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
 import CustomButton from './custom-button';
-
 import '../assets/stylesheets/project-card.scss';
 
 class ProjectCard extends Component {
   constructor({ props }) {
     super(props);
-
   }
 
   render() {
@@ -24,6 +21,6 @@ class ProjectCard extends Component {
       </div>
     )
   }
-  }
+}
 
 export default ProjectCard;
