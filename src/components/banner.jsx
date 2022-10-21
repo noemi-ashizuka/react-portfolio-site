@@ -5,7 +5,7 @@ import '../assets/stylesheets/banner.scss';
 const Banner = () => (
   <div className="banner">
     <div className="banner-text">
-      <h1>Noemi Ashizuka</h1>
+      <h1>Noemi Calanducci</h1>
       <p>Web Developer in Tokyo</p>
     </div>
   </div>
